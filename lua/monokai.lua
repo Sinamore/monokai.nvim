@@ -457,6 +457,7 @@ M.load_plugin_syntax = function(palette)
     },
     ["@variable.builtin"] = {
       fg = palette.orange,
+      style = 'italic',
     },
     ["@annotation"] = {
       fg = palette.green,
@@ -466,16 +467,16 @@ M.load_plugin_syntax = function(palette)
       style = 'italic',
     },
     ["@constant"] = {
-      fg = palette.aqua,
+      fg = palette.green,
     },
     ["@const.builtin"] = {
       fg = palette.purple,
     },
     ["@const.macro"] = {
-      fg = palette.purple,
+      fg = palette.pink,
     },
     ["@constructor"] = {
-      fg = palette.aqua,
+      fg = palette.white,
     },
     ["@conditional"] = {
       fg = palette.pink,
@@ -487,19 +488,20 @@ M.load_plugin_syntax = function(palette)
       fg = palette.green,
       style = 'italic',
     },
+    ["function.call"] = {
+      fg = palette.white,
+    },
     ["@function.builtin"] = {
       fg = palette.aqua,
     },
     ["@function.macro"] = {
-      fg = palette.green,
-      style = 'italic',
+      fg = palette.purple,
     },
     ["@keyword"] = {
       fg = palette.pink,
-      style = 'italic',
     },
     ["@keyword.function"] = {
-      fg = palette.pink,
+      fg = palette.aqua,
       style = 'italic',
     },
     ["@keyword.operator"] = {
@@ -510,6 +512,9 @@ M.load_plugin_syntax = function(palette)
     },
     ["@method"] = {
       fg = palette.green,
+    },
+    ["@method.call"] = {
+      fg = palette.white,
     },
     ["@namespace"] = {
       fg = palette.purple,
@@ -522,6 +527,9 @@ M.load_plugin_syntax = function(palette)
     },
     ["@parameter"] = {
       fg = palette.white,
+    },
+    ["parameter.keyword"] = {
+      fg = palette.orange,
     },
     ["@parameter.reference"] = {
       fg = palette.white,
