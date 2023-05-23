@@ -489,16 +489,16 @@ M.load_plugin_syntax = function(palette)
       fg = palette.pink,
     },
     ["@constant"] = {
-      fg = palette.aqua,
+      fg = palette.green,
     },
     ["@constant.builtin"] = {
       fg = palette.purple,
     },
     ["@constant.macro"] = {
-      fg = palette.purple,
+      fg = palette.pink,
     },
     ["@constructor"] = {
-      fg = palette.aqua,
+      fg = palette.white,
     },
     ["@debug"] = {
       fg = palette.pink,
@@ -568,8 +568,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.white,
     },
     ["@function.macro"] = {
-      fg = palette.green,
-      style = 'italic',
+      fg = palette.purple,
     },
     ["@include"] = {
       fg = palette.aqua,
@@ -610,6 +609,9 @@ M.load_plugin_syntax = function(palette)
       fg = palette.pink,
     },
     ["@parameter"] = {
+      fg = palette.white,
+	},
+    ["@parameter.keyword"] = {
       fg = palette.orange,
     },
     ["@parameter.reference"] = {
@@ -744,6 +746,7 @@ M.load_plugin_syntax = function(palette)
     },
     ["@variable.builtin"] = {
       fg = palette.orange,
+	  style = 'italic'
     },
     dbui_tables = {
       fg = palette.white,
