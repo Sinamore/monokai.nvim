@@ -144,28 +144,28 @@ M.load_syntax = function(palette)
       fg = palette.white,
       bg = palette.base2,
     },
-    NormalFloat = {
-      bg = palette.base1,
-    },
-    Pmenu = {
-      fg = palette.white,
-      bg = palette.base3,
-    },
-    PmenuSel = {
-      fg = palette.base4,
-      bg = palette.orange,
-    },
-    PmenuSelBold = {
-      fg = palette.base4,
-      bg = palette.orange,
-    },
-    PmenuThumb = {
-      fg = palette.purple,
-      bg = palette.green,
-    },
-    PmenuSbar = {
-      bg = palette.base3,
-    },
+    -- NormalFloat = {
+    --   bg = palette.base1,
+    -- },
+    -- Pmenu = {
+    --   fg = palette.white,
+    --   bg = palette.base3,
+    -- },
+    -- PmenuSel = {
+    --   fg = palette.base4,
+    --   bg = palette.orange,
+    -- },
+    -- PmenuSelBold = {
+    --   fg = palette.base4,
+    --   bg = palette.orange,
+    -- },
+    -- PmenuThumb = {
+    --   fg = palette.purple,
+    --   bg = palette.green,
+    -- },
+    -- PmenuSbar = {
+    --   bg = palette.base3,
+    -- },
     Cursor = {
       style = 'reverse',
     },
@@ -175,15 +175,15 @@ M.load_syntax = function(palette)
     CursorLine = {
       bg = palette.base3,
     },
-    NonText = { -- used for "eol", "extends" and "precedes" in listchars
-      fg = palette.base5,
-    },
-    Visual = {
-      bg = palette.base4,
-    },
-    VisualNOS = {
-      bg = palette.base3,
-    },
+    -- NonText = { -- used for "eol", "extends" and "precedes" in listchars
+    --   fg = palette.base5,
+    -- },
+    -- Visual = {
+    --   bg = palette.base4,
+    -- },
+    -- VisualNOS = {
+    --   bg = palette.base3,
+    -- },
     Search = {
       fg = palette.base2,
       bg = palette.yellow,
@@ -199,28 +199,28 @@ M.load_syntax = function(palette)
     MatchParen = {
       fg = palette.pink,
     },
-    Question = {
-      fg = palette.yellow,
-    },
-    ModeMsg = {
-      fg = palette.white,
-      style = 'bold',
-    },
-    MoreMsg = {
-      fg = palette.white,
-      style = 'bold',
-    },
-    ErrorMsg = {
-      fg = palette.red,
-      style = 'bold',
-    },
-    WarningMsg = {
-      fg = palette.yellow,
-      style = 'bold',
-    },
-    VertSplit = {
-      fg = palette.brown,
-    },
+    -- Question = {
+    --   fg = palette.yellow,
+    -- },
+    -- ModeMsg = {
+    --   fg = palette.white,
+    --   style = 'bold',
+    -- },
+    -- MoreMsg = {
+    --   fg = palette.white,
+    --   style = 'bold',
+    -- },
+    -- ErrorMsg = {
+    --   fg = palette.red,
+    --   style = 'bold',
+    -- },
+    -- WarningMsg = {
+    --   fg = palette.yellow,
+    --   style = 'bold',
+    -- },
+    -- VertSplit = {
+    --   fg = palette.brown,
+    -- },
     LineNr = {
       fg = palette.base5,
       bg = palette.base2,
@@ -237,37 +237,37 @@ M.load_syntax = function(palette)
       fg = palette.grey,
       bg = palette.base3,
     },
-    Tabline = {},
-    TabLineFill = {},
-    TabLineSel = {
-      bg = palette.base4,
-    },
-    SpellBad = {
-      fg = palette.red,
-      style = 'undercurl',
-    },
-    SpellCap = {
-      fg = palette.purple,
-      style = 'undercurl',
-    },
-    SpellRare = {
-      fg = palette.aqua,
-      style = 'undercurl',
-    },
-    SpellLocal = {
-      fg = palette.pink,
-      style = 'undercurl',
-    },
-    SpecialKey = {
-      fg = palette.pink,
-    },
-    Title = {
-      fg = palette.yellow,
-      style = 'bold',
-    },
-    Directory = {
-      fg = palette.aqua,
-    },
+    -- Tabline = {},
+    -- TabLineFill = {},
+    -- TabLineSel = {
+    --   bg = palette.base4,
+    -- },
+    -- SpellBad = {
+    --   fg = palette.red,
+    --   style = 'undercurl',
+    -- },
+    -- SpellCap = {
+    --   fg = palette.purple,
+    --   style = 'undercurl',
+    -- },
+    -- SpellRare = {
+    --   fg = palette.aqua,
+    --   style = 'undercurl',
+    -- },
+    -- SpellLocal = {
+    --   fg = palette.pink,
+    --   style = 'undercurl',
+    -- },
+    -- SpecialKey = {
+    --   fg = palette.pink,
+    -- },
+    -- Title = {
+    --   fg = palette.yellow,
+    --   style = 'bold',
+    -- },
+    -- Directory = {
+    --   fg = palette.aqua,
+    -- },
     DiffAdd = {
       bg = palette.diff_add,
     },
@@ -294,413 +294,519 @@ M.load_syntax = function(palette)
       fg = palette.white,
       bg = palette.black,
     },
-    Constant = {
-      fg = palette.aqua,
-    },
-    Number = {
-      fg = palette.purple,
-    },
-    Float = {
-      fg = palette.purple,
-    },
-    Boolean = {
-      fg = palette.purple,
-    },
-    Character = {
-      fg = palette.yellow,
-    },
-    String = {
-      fg = palette.yellow,
-    },
-    Type = {
-      fg = palette.aqua,
-    },
-    Structure = {
-      fg = palette.aqua,
-    },
-    StorageClass = {
-      fg = palette.aqua,
-    },
-    Typedef = {
-      fg = palette.aqua,
-    },
-    Identifier = {
-      fg = palette.white,
-    },
-    Function = {
-      fg = palette.green,
-      style = 'italic',
-    },
-    Statement = {
-      fg = palette.pink,
-    },
-    Operator = {
-      fg = palette.pink,
-    },
-    Label = {
-      fg = palette.pink,
-    },
-    Keyword = {
-      fg = palette.pink,
-      style = 'italic',
-    },
-    PreProc = {
-      fg = palette.green,
-    },
-    Include = {
-      fg = palette.pink,
-    },
-    Define = {
-      fg = palette.pink,
-    },
-    Macro = {
-      fg = palette.pink,
-    },
-    PreCondit = {
-      fg = palette.pink,
-    },
-    Special = {
-      fg = palette.white,
-    },
-    SpecialChar = {
-      fg = palette.pink,
-    },
-    Delimiter = {
-      fg = palette.white,
-    },
-    SpecialComment = {
-      fg = palette.grey,
-      style = 'italic',
-    },
-    Tag = {
-      fg = palette.orange,
-    },
-    Todo = {
-      fg = palette.orange,
-    },
-    Comment = {
-      fg = palette.base6,
-      style = 'italic',
-    },
-    Underlined = {
-      style = 'underline',
-    },
-    Ignore = {},
-    Error = {
-      fg = palette.red,
-    },
-    Terminal = {
-      fg = palette.white,
-      bg = palette.base2,
-    },
-    EndOfBuffer = {
-      fg = palette.base2,
-    },
-    Conceal = {
-      fg = palette.grey,
-    },
+    -- Constant = {
+    --   fg = palette.aqua,
+    -- },
+    -- Number = {
+    --   fg = palette.purple,
+    -- },
+    -- Float = {
+    --   fg = palette.purple,
+    -- },
+    -- Boolean = {
+    --   fg = palette.purple,
+    -- },
+    -- Character = {
+    --   fg = palette.yellow,
+    -- },
+    -- String = {
+    --   fg = palette.yellow,
+    -- },
+    -- Type = {
+    --   fg = palette.aqua,
+    -- },
+    -- Structure = {
+    --   fg = palette.aqua,
+    -- },
+    -- StorageClass = {
+    --   fg = palette.aqua,
+    -- },
+    -- Typedef = {
+    --   fg = palette.aqua,
+    -- },
+    -- Identifier = {
+    --   fg = palette.white,
+    -- },
+    -- Function = {
+    --   fg = palette.green,
+    --   style = 'italic',
+    -- },
+    -- Statement = {
+    --   fg = palette.pink,
+    -- },
+    -- Operator = {
+    --   fg = palette.pink,
+    -- },
+    -- Label = {
+    --   fg = palette.pink,
+    -- },
+    -- Keyword = {
+    --   fg = palette.pink,
+    --   style = 'italic',
+    -- },
+    -- PreProc = {
+    --   fg = palette.green,
+    -- },
+    -- Include = {
+    --   fg = palette.pink,
+    -- },
+    -- Define = {
+    --   fg = palette.pink,
+    -- },
+    -- Macro = {
+    --   fg = palette.pink,
+    -- },
+    -- PreCondit = {
+    --   fg = palette.pink,
+    -- },
+    -- Special = {
+    --   fg = palette.white,
+    -- },
+    -- SpecialChar = {
+    --   fg = palette.pink,
+    -- },
+    -- Delimiter = {
+    --   fg = palette.white,
+    -- },
+    -- SpecialComment = {
+    --   fg = palette.grey,
+    --   style = 'italic',
+    -- },
+    -- Tag = {
+    --   fg = palette.orange,
+    -- },
+    -- Todo = {
+    --   fg = palette.orange,
+    -- },
+    -- Comment = {
+    --   fg = palette.base6,
+    --   style = 'italic',
+    -- },
+    -- Underlined = {
+    --   style = 'underline',
+    -- },
+    -- Ignore = {},
+    -- Error = {
+    --   fg = palette.red,
+    -- },
+    -- Terminal = {
+    --   fg = palette.white,
+    --   bg = palette.base2,
+    -- },
+    -- EndOfBuffer = {
+    --   fg = palette.base2,
+    -- },
+    -- Conceal = {
+    --   fg = palette.grey,
+    -- },
     vCursor = {
       style = 'reverse',
     },
     iCursor = {
       style = 'reverse',
     },
-    lCursor = {
-      style = 'reverse',
-    },
-    CursorIM = {
-      style = 'reverse',
-    },
-    CursorColumn = {
-      bg = palette.base3,
-    },
-    Whitespace = { -- used for "nbsp", "space", "tab" and "trail" in listchars
-      fg = palette.base5,
-    },
-    WildMenu = {
-      fg = palette.white,
-      bg = palette.orange,
-    },
-    QuickFixLine = {
-      fg = palette.purple,
-      style = 'bold',
-    },
-    Debug = {
-      fg = palette.orange,
-    },
-    debugBreakpoint = {
-      fg = palette.base2,
-      bg = palette.red,
-    },
-    Conditional = {
-      fg = palette.pink,
-    },
-    Repeat = {
-      fg = palette.pink,
-    },
-    Exception = {
-      fg = palette.pink,
-    },
+    -- lCursor = {
+    --   style = 'reverse',
+    -- },
+    -- CursorIM = {
+    --   style = 'reverse',
+    -- },
+    -- CursorColumn = {
+    --   bg = palette.base3,
+    -- },
+    -- Whitespace = { -- used for "nbsp", "space", "tab" and "trail" in listchars
+    --   fg = palette.base5,
+    -- },
+    -- WildMenu = {
+    --   fg = palette.white,
+    --   bg = palette.orange,
+    -- },
+    -- QuickFixLine = {
+    --   fg = palette.purple,
+    --   style = 'bold',
+    -- },
+    -- Debug = {
+    --   fg = palette.orange,
+    -- },
+    -- debugBreakpoint = {
+    --   fg = palette.base2,
+    --   bg = palette.red,
+    -- },
+    -- Conditional = {
+    --   fg = palette.pink,
+    -- },
+    -- Repeat = {
+    --   fg = palette.pink,
+    -- },
+    -- Exception = {
+    --   fg = palette.pink,
+    -- },
   }
 end
 
 M.load_plugin_syntax = function(palette)
   return {
-    ["@string"] = {
-      fg = palette.yellow,
-    },
-    ["@include"] = {
-      fg = palette.pink,
-    },
     ["@variable"] = {
       fg = palette.white,
     },
-    ["@variable.builtin"] = {
-      fg = palette.orange,
-      style = 'italic',
-    },
-    ["@annotation"] = {
-      fg = palette.green,
-    },
-    ["@comment"] = {
-      fg = palette.base6,
-      style = 'italic',
-    },
-    ["@constant"] = {
-      fg = palette.green,
-    },
-    ["@const.builtin"] = {
-      fg = palette.purple,
-    },
-    ["@const.macro"] = {
-      fg = palette.pink,
-    },
-    ["@constructor"] = {
+    ["@variable.member"] = {
       fg = palette.white,
     },
-    ["@conditional"] = {
-      fg = palette.pink,
-    },
-    ["@character"] = {
-      fg = palette.yellow,
-    },
-    ["@function"] = {
-      fg = palette.green,
-      style = 'italic',
-    },
-    ["function.call"] = {
-      fg = palette.white,
-    },
-    ["@function.builtin"] = {
-      fg = palette.aqua,
-    },
-    ["@function.macro"] = {
-      fg = palette.purple,
-    },
-    ["@keyword"] = {
-      fg = palette.pink,
-    },
-    ["@keyword.function"] = {
-      fg = palette.aqua,
-      style = 'italic',
-    },
-    ["@keyword.operator"] = {
-      fg = palette.pink,
-    },
-    ["@keyword.return"] = {
-      fg = palette.pink,
-    },
-    ["@method"] = {
-      fg = palette.green,
-    },
-    ["@method.call"] = {
-      fg = palette.white,
-    },
-    ["@namespace"] = {
-      fg = palette.purple,
-    },
-    ["@number"] = {
-      fg = palette.purple,
-    },
-    ["@operator"] = {
-      fg = palette.pink,
-    },
-    ["@parameter"] = {
-      fg = palette.white,
-    },
-    ["parameter.keyword"] = {
-      fg = palette.orange,
-    },
-    ["@parameter.reference"] = {
+    ["@field"] = {
       fg = palette.white,
     },
     ["@property"] = {
       fg = palette.white,
     },
-    ["@punctuation.delimiter"] = {
-      fg = palette.white,
+
+    ["@constant"] = {
+      fg = palette.green,
     },
-    ["@punctuation.bracket"] = {
-      fg = palette.white,
+    ["@constant.macro"] = {
+      -- TODO: purple?
+      fg = palette.green,
     },
-    ["@punctuation.special"] = {
-      fg = palette.pink,
-    },
-    ["@repeat"] = {
-      fg = palette.pink,
-    },
-    ["@string.regex"] = {
+
+    ["@module"] = {
       fg = palette.purple,
+    },
+
+    ["@label"] = {
+      fg = palette.red,
+    },
+
+    ["@string"] = {
+      fg = palette.yellow,
     },
     ["@string.escape"] = {
       fg = palette.purple,
     },
-    ["@tag"] = {
-      fg = palette.pink,
+
+    ["@character"] = {
+      fg = palette.yellow,
     },
-    ["@tag.delimiter"] = {
-      fg = palette.white,
+
+    ["@boolean"] = {
+      fg = palette.purple,
     },
-    ["@tag.attribute"] = {
-      fg = palette.green,
+    ["@number"] = {
+      fg = palette.purple,
     },
-    ["@label"] = {
-      fg = palette.pink,
-    },
+
     ["@type"] = {
       fg = palette.aqua,
     },
-    ["@exception"] = {
-      fg = palette.pink,
-    },
-    ["@field"] = {
-      fg = palette.white,
-    },
-    ["@float"] = {
-      fg = palette.purple,
-    },
-    dbui_tables = {
-      fg = palette.white,
-    },
-    DiagnosticSignError = {
+
+    ["@attribute"] = {
       fg = palette.red,
-    },
-    DiagnosticSignWarn = {
-      fg = palette.yellow,
-    },
-    DiagnosticSignInfo = {
-      fg = palette.white,
-    },
-    DiagnosticSignHint = {
-      fg = palette.aqua,
-    },
-    DiagnosticVirtualTextError = {
-      fg = palette.red,
-    },
-    DiagnosticVirtualTextWarn = {
-      fg = palette.yellow,
-    },
-    DiagnosticVirtualTextInfo = {
-      fg = palette.white,
-    },
-    DiagnosticVirtualTextHint = {
-      fg = palette.aqua,
-    },
-    DiagnosticUnderlineError = {
-      style = 'undercurl',
-      sp = palette.red,
-    },
-    DiagnosticUnderlineWarn = {
-      style = 'undercurl',
-      sp = palette.yellow,
-    },
-    DiagnosticUnderlineInfo = {
-      style = 'undercurl',
-      sp = palette.white,
-    },
-    DiagnosticUnderlineHint = {
-      style = 'undercurl',
-      sp = palette.aqua,
-    },
-    CursorWord0 = {
-      bg = palette.white,
-      fg = palette.black,
-    },
-    CursorWord1 = {
-      bg = palette.white,
-      fg = palette.black,
-    },
-    NvimTreeFolderName = {
-      fg = palette.white,
-    },
-    NvimTreeRootFolder = {
-      fg = palette.pink,
-    },
-    NvimTreeSpecialFile = {
-      fg = palette.white,
-      style = 'NONE',
     },
 
-    -- Telescope
-    TelescopeBorder = {
-      fg = palette.base7,
-    },
-    TelescopeNormal = {
-      fg = palette.base8,
-      bg = palette.base0,
-    },
-    TelescopeSelection = {
+    ["@function"] = {
       fg = palette.white,
-      style = 'bold',
     },
-    TelescopeSelectionCaret = {
+    ["@function.macro"] = {
+      -- TODO: white?
       fg = palette.green,
     },
-    TelescopeMultiSelection = {
+    ["@operator"] = {
       fg = palette.pink,
     },
-    TelescopeMatching = {
-      fg = palette.aqua,
+
+    ["@keyword"] = {
+      -- TODO: red?
+      fg = palette.pink,
     },
 
-    -- hrsh7th/nvim-cmp
-    CmpDocumentation = { fg = palette.white, bg = palette.base1 },
-    CmpDocumentationBorder = { fg = palette.white, bg = palette.base1 },
+    ["@punctuation"] = {
+      fg = palette.white,
+    },
 
-    CmpItemAbbr = { fg = palette.white },
-    CmpItemAbbrMatch = { fg = palette.aqua },
-    CmpItemAbbrMatchFuzzy = { fg = palette.aqua },
+    ["@comment"] = {
+      fg = palette.base6,
+      style = 'italic',
+    },
+    ["@comment.error"] = {
+      fg = palette.orange,
+      style = 'italic,bold',
+    },
+    ["@comment.warning"] = {
+      fg = palette.orange,
+      style = 'italic,bold',
+    },
+    ["@comment.todo"] = {
+      fg = palette.orange,
+      style = 'italic,bold',
+    },
+    ["@comment.note"] = {
+      fg = palette.orange,
+      style = 'italic,bold',
+    },
+    -- MARKUP
+    ["@diff.plus"] = {
+      fg = palette.diff_add,
+    },
+    ["@diff.minus"] = {
+      fg = palette.diff_remove,
+    },
+    ["@diff.delta"] = {
+      fg = palette.diff_change,
+    },
 
-    CmpItemKindDefault = { fg = palette.white },
-    CmpItemMenu = { fg = palette.base6 },
-
-    CmpItemKindKeyword = { fg = palette.pink },
-    CmpItemKindVariable = { fg = palette.pink },
-    CmpItemKindConstant = { fg = palette.pink },
-    CmpItemKindReference = { fg = palette.pink },
-    CmpItemKindValue = { fg = palette.pink },
-
-    CmpItemKindFunction = { fg = palette.aqua },
-    CmpItemKindMethod = { fg = palette.aqua },
-    CmpItemKindConstructor = { fg = palette.aqua },
-
-    CmpItemKindClass = { fg = palette.orange },
-    CmpItemKindInterface = { fg = palette.orange },
-    CmpItemKindStruct = { fg = palette.orange },
-    CmpItemKindEvent = { fg = palette.orange },
-    CmpItemKindEnum = { fg = palette.orange },
-    CmpItemKindUnit = { fg = palette.orange },
-
-    CmpItemKindModule = { fg = palette.yellow },
-
-    CmpItemKindProperty = { fg = palette.green },
-    CmpItemKindField = { fg = palette.green },
-    CmpItemKindTypeParameter = { fg = palette.green },
-    CmpItemKindEnumMember = { fg = palette.green },
-    CmpItemKindOperator = { fg = palette.green },
-
-    -- ray-x/lsp_signature.nvim
-    LspSignatureActiveParameter = { fg = palette.orange },
+    -- ["@string"] = {
+    --   fg = palette.yellow,
+    -- },
+    -- ["@include"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@variable"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@variable.builtin"] = {
+    --   fg = palette.orange,
+    --   style = 'italic',
+    -- },
+    -- ["@annotation"] = {
+    --   fg = palette.green,
+    -- },
+    -- ["@comment"] = {
+    --   fg = palette.base6,
+    --   style = 'italic',
+    -- },
+    -- ["@constant"] = {
+    --   fg = palette.green,
+    -- },
+    -- ["@const.builtin"] = {
+    --   fg = palette.purple,
+    -- },
+    -- ["@const.macro"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@constructor"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@conditional"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@character"] = {
+    --   fg = palette.yellow,
+    -- },
+    -- ["@function"] = {
+    --   fg = palette.green,
+    --   style = 'italic',
+    -- },
+    -- ["function.call"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@function.builtin"] = {
+    --   fg = palette.aqua,
+    -- },
+    -- ["@function.macro"] = {
+    --   fg = palette.purple,
+    -- },
+    -- ["@keyword"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@keyword.function"] = {
+    --   fg = palette.aqua,
+    --   style = 'italic',
+    -- },
+    -- ["@keyword.operator"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@keyword.return"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@method"] = {
+    --   fg = palette.green,
+    -- },
+    -- ["@method.call"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@namespace"] = {
+    --   fg = palette.purple,
+    -- },
+    -- ["@number"] = {
+    --   fg = palette.purple,
+    -- },
+    -- ["@operator"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@parameter"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["parameter.keyword"] = {
+    --   fg = palette.orange,
+    -- },
+    -- ["@parameter.reference"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@property"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@punctuation.delimiter"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@punctuation.bracket"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@punctuation.special"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@repeat"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@string.regex"] = {
+    --   fg = palette.purple,
+    -- },
+    -- ["@string.escape"] = {
+    --   fg = palette.purple,
+    -- },
+    -- ["@tag"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@tag.delimiter"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@tag.attribute"] = {
+    --   fg = palette.green,
+    -- },
+    -- ["@label"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@type"] = {
+    --   fg = palette.aqua,
+    -- },
+    -- ["@exception"] = {
+    --   fg = palette.pink,
+    -- },
+    -- ["@field"] = {
+    --   fg = palette.white,
+    -- },
+    -- ["@float"] = {
+    --   fg = palette.purple,
+    -- },
+    -- dbui_tables = {
+    --   fg = palette.white,
+    -- },
+    -- DiagnosticSignError = {
+    --   fg = palette.red,
+    -- },
+    -- DiagnosticSignWarn = {
+    --   fg = palette.yellow,
+    -- },
+    -- DiagnosticSignInfo = {
+    --   fg = palette.white,
+    -- },
+    -- DiagnosticSignHint = {
+    --   fg = palette.aqua,
+    -- },
+    -- DiagnosticVirtualTextError = {
+    --   fg = palette.red,
+    -- },
+    -- DiagnosticVirtualTextWarn = {
+    --   fg = palette.yellow,
+    -- },
+    -- DiagnosticVirtualTextInfo = {
+    --   fg = palette.white,
+    -- },
+    -- DiagnosticVirtualTextHint = {
+    --   fg = palette.aqua,
+    -- },
+    -- DiagnosticUnderlineError = {
+    --   style = 'undercurl',
+    --   sp = palette.red,
+    -- },
+    -- DiagnosticUnderlineWarn = {
+    --   style = 'undercurl',
+    --   sp = palette.yellow,
+    -- },
+    -- DiagnosticUnderlineInfo = {
+    --   style = 'undercurl',
+    --   sp = palette.white,
+    -- },
+    -- DiagnosticUnderlineHint = {
+    --   style = 'undercurl',
+    --   sp = palette.aqua,
+    -- },
+    -- CursorWord0 = {
+    --   bg = palette.white,
+    --   fg = palette.black,
+    -- },
+    -- CursorWord1 = {
+    --   bg = palette.white,
+    --   fg = palette.black,
+    -- },
+    -- NvimTreeFolderName = {
+    --   fg = palette.white,
+    -- },
+    -- NvimTreeRootFolder = {
+    --   fg = palette.pink,
+    -- },
+    -- NvimTreeSpecialFile = {
+    --   fg = palette.white,
+    --   style = 'NONE',
+    -- },
+    --
+    -- -- Telescope
+    -- TelescopeBorder = {
+    --   fg = palette.base7,
+    -- },
+    -- TelescopeNormal = {
+    --   fg = palette.base8,
+    --   bg = palette.base0,
+    -- },
+    -- TelescopeSelection = {
+    --   fg = palette.white,
+    --   style = 'bold',
+    -- },
+    -- TelescopeSelectionCaret = {
+    --   fg = palette.green,
+    -- },
+    -- TelescopeMultiSelection = {
+    --   fg = palette.pink,
+    -- },
+    -- TelescopeMatching = {
+    --   fg = palette.aqua,
+    -- },
+    --
+    -- -- hrsh7th/nvim-cmp
+    -- CmpDocumentation = { fg = palette.white, bg = palette.base1 },
+    -- CmpDocumentationBorder = { fg = palette.white, bg = palette.base1 },
+    --
+    -- CmpItemAbbr = { fg = palette.white },
+    -- CmpItemAbbrMatch = { fg = palette.aqua },
+    -- CmpItemAbbrMatchFuzzy = { fg = palette.aqua },
+    --
+    -- CmpItemKindDefault = { fg = palette.white },
+    -- CmpItemMenu = { fg = palette.base6 },
+    --
+    -- CmpItemKindKeyword = { fg = palette.pink },
+    -- CmpItemKindVariable = { fg = palette.pink },
+    -- CmpItemKindConstant = { fg = palette.pink },
+    -- CmpItemKindReference = { fg = palette.pink },
+    -- CmpItemKindValue = { fg = palette.pink },
+    --
+    -- CmpItemKindFunction = { fg = palette.aqua },
+    -- CmpItemKindMethod = { fg = palette.aqua },
+    -- CmpItemKindConstructor = { fg = palette.aqua },
+    --
+    -- CmpItemKindClass = { fg = palette.orange },
+    -- CmpItemKindInterface = { fg = palette.orange },
+    -- CmpItemKindStruct = { fg = palette.orange },
+    -- CmpItemKindEvent = { fg = palette.orange },
+    -- CmpItemKindEnum = { fg = palette.orange },
+    -- CmpItemKindUnit = { fg = palette.orange },
+    --
+    -- CmpItemKindModule = { fg = palette.yellow },
+    --
+    -- CmpItemKindProperty = { fg = palette.green },
+    -- CmpItemKindField = { fg = palette.green },
+    -- CmpItemKindTypeParameter = { fg = palette.green },
+    -- CmpItemKindEnumMember = { fg = palette.green },
+    -- CmpItemKindOperator = { fg = palette.green },
+    --
+    -- -- ray-x/lsp_signature.nvim
+    -- LspSignatureActiveParameter = { fg = palette.orange },
   }
 end
 
