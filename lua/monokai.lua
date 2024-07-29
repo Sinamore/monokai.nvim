@@ -452,6 +452,10 @@ M.load_plugin_syntax = function(palette)
     ["@variable.member"] = {
       fg = palette.white,
     },
+    ["@variable.builtin"] = {
+      fg = palette.orange,
+    },
+
     ["@field"] = {
       fg = palette.white,
     },
@@ -464,6 +468,9 @@ M.load_plugin_syntax = function(palette)
     },
     ["@constant.macro"] = {
       -- TODO: purple?
+      fg = palette.green,
+    },
+    ["@constant.builtin"] = {
       fg = palette.green,
     },
 
